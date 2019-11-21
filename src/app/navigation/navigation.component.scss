@@ -1,0 +1,32 @@
+.nav-menu {
+    margin-top: 30vh;
+}
+
+ul {
+    list-style: none;
+    font-family: Verdana;
+    padding-left: 0px;
+}
+
+li {
+    padding-top: 16px;
+}
+
+li a {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    opacity: .5;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    opacity: .75;
+}
+
+li a.active {
+    opacity: 1;
+}
+

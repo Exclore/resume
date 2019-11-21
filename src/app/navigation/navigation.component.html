@@ -1,0 +1,8 @@
+<div class="nav-menu">
+    <app-nav-photo></app-nav-photo>
+    <ul>
+        <li *ngFor="let menuItem of menuItems" (click)="activate($event, menuItem)">
+            <a [routerLink]="['/']"  [ngClass]="{'active': selected === menuItem.id}" fragment="{{menuItem.id}}">{{menuItem.name}}</a>
+        </li>
+    </ul>
+</div>

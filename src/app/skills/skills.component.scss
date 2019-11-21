@@ -1,0 +1,71 @@
+:host{
+    min-height: 100vh;
+}
+
+.main-body{
+    padding-left: 4%;
+    height: 100vh;
+    max-width: 92%;
+}
+
+.header {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+}
+
+.sub-heading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1.5rem;
+    color: #868e96;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+ p {
+     padding-top: 50px;
+ }
+.container {
+    padding-left: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+    flex: 0 0 33.333333%;
+    min-height: 100px;
+}
+
+ul li i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.list-inline li{
+    font-size: 3rem;
+}
+
+.list-inline li i:hover{
+    color: #BD5D38;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+p {
+    color: #868e96;
+    font-family: "Open Sans", serif;
+}

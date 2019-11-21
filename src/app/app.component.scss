@@ -1,0 +1,18 @@
+.navigation-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+    background-color: #0f8a9e;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+    margin-left: 20%;
+}

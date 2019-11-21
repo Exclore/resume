@@ -1,0 +1,40 @@
+:host{
+    min-height: 100vh;
+}
+
+body{
+    font-family: 'Saira Extra Condensed', serif;
+}
+
+.main-body{
+    color: #868e96;
+    font-family: 'Open Sans', serif;
+    padding-left: 4%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main-body p{
+    margin-top: 48px;
+}
+
+.name-heading{
+    color: #343a40;
+    font-size: 6rem;
+    margin-bottom: 0px;
+}
+
+.name-heading span{
+    color: #0f8a9e;
+}
+
+.sub-heading{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.35rem;
+}
+
+.sub-heading a{
+    color: #0f8a9e;
+}

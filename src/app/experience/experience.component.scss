@@ -1,0 +1,55 @@
+:host{
+    min-height: 100vh;
+}
+
+.main-body{
+    padding-left: 4%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-body > * {
+    width: 100%;
+}
+
+.header{
+    color: #343a40;
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sub-heading{
+    color: #868e96;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.35rem;
+    font-family: 'Saira Extra Condensed', serif;
+}
+
+.list{
+    color: #868e96;
+}
+
+li {
+    font-family: 'Open Sans', serif;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-family: 'Saira Extra Condensed', serif;
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+
+.date{
+    float: right;
+    padding-right: 3%;
+    color: #0f8a9e;
+    font-family: 'Open Sans', serif;
+}
