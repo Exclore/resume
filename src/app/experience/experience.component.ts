@@ -13,7 +13,7 @@ export class ExperienceComponent implements OnInit {
     'Successfully developed QA processes to improve software quality.',
     'Used a wide variety of technologies and languages to build and improve the application.',
     'Managed a small QA team. ',
-    'Worked in an Kanban workflow with a cross functional development and product team.'
+    'Worked in a Kanban workflow with a cross functional development and product team.'
   ];
 
   sirsiBullets = [
