@@ -1,3 +1,42 @@
 :host{
     min-height: 100vh;
 }
+
+.main-body {
+    padding-left: 4%;
+    height: 100vh;
+}
+
+.header {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+}
+
+.sub-header {
+    font-size: 1.75rem;
+    font-family: "Saira Extra Condensed", serif;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.program {
+    color: #868e96;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.35rem;
+    font-family: "Saira Extra Condensed", serif;
+}
+
+.degree {
+    font-family: 'Open Sans', serif;
+    color: #868e96;
+}
+
+.date {
+    float: right;
+    color: #0f8a9e;
+}
