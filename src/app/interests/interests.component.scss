@@ -1,3 +1,66 @@
 :host{
     min-height: 100vh;
 }
+
+.header {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+}
+
+.logo-header {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 2rem;
+    color: #868e96;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.main-body {
+    padding-left: 4%;
+    height: 100vh;
+}
+
+p {
+    color: #868e96;
+    font-family: "Open Sans", serif;
+}
+
+.container {
+    margin-left: 0px;
+}
+
+.row {
+    padding-top: 50px;
+}
+
+.row div h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.row div img {
+    padding-left: 30px;
+}
+
+.row .mtg img {
+    padding-left: 15px;
+}
+
+.forest-symbol {
+    margin-left: 65px;
+}
+
+.island-symbol {
+    margin-left: 10px;
+}
+
+.darksign {
+    margin-left: 45px;
+}
+
