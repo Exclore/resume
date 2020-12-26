@@ -31,10 +31,11 @@ const routes: Routes = [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(routes,{
-      scrollPositionRestoration: 'enabled',
-      anchorScrolling: 'enabled',
-      scrollOffset: [0, 64]
-    })
+    scrollPositionRestoration: 'enabled',
+    anchorScrolling: 'enabled',
+    scrollOffset: [0, 64],
+    relativeLinkResolution: 'legacy'
+})
   ],
   providers: [],
   bootstrap: [AppComponent]
